@@ -24,7 +24,7 @@ metadata:
 rules:
 - apiGroups: ["*"]
   resources: ["*"]
-  verbs: ["get", "list", "describe"]
+  verbs: ["get", "list", "describe","watch"]
 
 ---
 kind: ClusterRoleBinding
